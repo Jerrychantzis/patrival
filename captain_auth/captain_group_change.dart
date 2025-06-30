@@ -27,7 +27,7 @@ class _CaptainGroupChangeState extends State<CaptainGroupChange> {
   late PageController _pageController;
   late int _currentPageIndex;
   late int _totalPages;
-  final String noImageUrl = 'https://firebasestorage.googleapis.com/v0/b/carnivaldatabase-1f814.appspot.com/o/def_icons%2Fno_image.jpg?alt=media&token=90c83f0b-35ce-455d-aa27-15e7e3f4daf9';
+  final String noImageUrl = 'no-image'; //here goes the url from my database
 
   @override
   void initState() {
