@@ -35,12 +35,7 @@ Future<void> main() async {
 
   if (Platform.isAndroid || kIsWeb) {
     await Firebase.initializeApp(
-      options: const FirebaseOptions(
-        apiKey: "AIzaSyA3AoUjmUIwuR8t1w72yp73HaPZL0tWq0o",
-        appId: "1:415818325388:android:9835439896e28f50b8caa9",
-        messagingSenderId: "415818325388",
-        projectId: "carnivaldatabase-1f814",
-        storageBucket: "carnivaldatabase-1f814.appspot.com",
+     // database keys
       ),
     );
   } else {
